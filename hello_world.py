@@ -7,5 +7,10 @@
 # Hello world - RST
 
 # Prints various things regarding  Tony G
-print("Hello, Tony G!")
-print("This particular fellow called Tony G also happens to like apple pie alot!")
+
+while True: # Infinite loop to keep the program running until user decides to exit
+    print("Hello, Tony G!")
+    print("This particular fellow called Tony G also happens to like apple pie alot!")
+    if input("type exit to stop: ") == "exit":
+        break
+print("Goodbye! Good luck!")
